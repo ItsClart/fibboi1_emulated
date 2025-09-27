@@ -1,10 +1,11 @@
+
 FIBBOI 1 Emulated in Python.
 
 
 ### INSTRUCTION MAP
 ```
 HLT
-00
+00      -           -           -
 
 LDI		DEST		VAL	
 01		00		    0000		-
@@ -13,7 +14,7 @@ ADD		DEST		READ		READ
 10		00		    00		    00
 
 JMP		DEST
-11		000		    -		-
+11		000		    -		    -
 ```
 
 - - -
